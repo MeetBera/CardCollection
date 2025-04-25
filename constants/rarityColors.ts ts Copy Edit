@@ -1,0 +1,34 @@
+// File: src/constants/rarityColors.ts
+export const rarityColors = {
+  Common: {
+    bg: '#f3f3f3',
+    text: '#000',
+    border: '#d0d0d0',
+  },
+  Rare: {
+    bg: '#4e8dff',
+    text: '#fff',
+    border: '#2b5bb5',
+  },
+  Epic: {
+    bg: '#9c2f96',
+    text: '#fff',
+    border: '#6b1e73',
+  },
+  Legendary: {
+    bg: '#ffad00',
+    text: '#000',
+    border: '#d78500',
+  },
+  Champion: {
+    bg: '#ff5f5f',
+    text: '#fff',
+    border: '#d43d3d',
+  },
+};
+
+export type RarityColor = {
+  bg: string;
+  text: string;
+  border: string;
+};
